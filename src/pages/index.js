@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function Home({ countries }) {
   // console.log(countries);
 
-  const [keyword, setKeyword] = useState();
+  const [keyword, setKeyword] = useState("");
 
   const filteredCountries = countries.filter(
     (country) =>
